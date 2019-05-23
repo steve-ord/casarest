@@ -102,9 +102,9 @@ set(OTHER_LIBRARIES ${CASACORE_LIBRARIES}
 )
 
 add_subdirectory(components)
-add_subdirectory(msvis)
-add_subdirectory(calibration)
-add_subdirectory(synthesis)
+#add_subdirectory(msvis)
+#add_subdirectory(calibration)
+#add_subdirectory(synthesis)
 if(BUILD_ALL)
 ##    message(STATUS "  Also building flagging and simulators")
     message(STATUS "  flagging and simulators are currently not buildable")
